@@ -43,6 +43,17 @@ export default class LoginForm extends Component {
             onChange={this.handleChange} />
         </div>
         
+        <div className="form-group">
+          <input
+            type="text"
+            className="form-control"
+            name="password"
+            placeholder="请输入密码"
+            required
+            value={this.state.username}
+            onChange={this.handleChange} />
+        </div>
+        
         <button
           type="submit"
           className="btn btn-success">
