@@ -5,11 +5,7 @@ export default class LogoutDropdown extends Component {
     router: PropTypes.object.isRequired
   }
 
-  logout () {
-    // 退出登录后直接返回首页
-    this.props.logout()
-    this.context.router.replace('/')
-  }
+
 
   render () {
     return (
